@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import Image from 'next/image'
+import Logo from '@/public/images/logo.png'
+
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
@@ -11,7 +13,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="block" aria-label="Ignaulin">
             <Image className="mb-0"
-              src="/images/logo.png"
+              src={Logo}
               width={128}
               height={64}
               alt="Picture of the author"

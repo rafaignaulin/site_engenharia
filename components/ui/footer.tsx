@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Logo from '@/public/images/logo.png'
 
 export default function Footer() {
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Ignaulin">
                 <Image className="mb-0"
-                  src="/images/logo.png"
+                  src={Logo}
                   width={128}
                   height={0}
                   alt="Picture of the author"
