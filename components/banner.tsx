@@ -16,13 +16,11 @@ export default function Banner() {
                 href="https://github.com/cruip/open-react-template"
                 target="_blank"
                 rel="noreferrer"
-              >
-                Aqui
-              </a>{' '}
-              <span className="italic px-1.5">or</span>{' '}
-              <a className="font-medium hover:underline text-emerald-400" href="https://cruip.com/open-pro/" target="_blank" rel="noreferrer">
-                Check Premium Version
-              </a> */}
+              > Aqui </a>{' '}
+              <span className="italic px-1.5">or</span>{' '} */}
+              <a className="font-medium hover:underline text-emerald-400" href="http://wa.me/5549991147676" target="_blank" rel="noreferrer">
+                Contate-nos!
+              </a>
             </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
               <span className="sr-only">Close</span>

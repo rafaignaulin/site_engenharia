@@ -23,17 +23,18 @@ export default function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
-              <p className="text-yellow-200 text-lg">Join our newsletter to get top news before anyone else.</p>
+              <h3 className="h3 text-white mb-2">Faça um orçamento!</h3>
+              <p className="text-yellow-200 text-lg">Nos chame pelos nossos principais meios de comunicação.</p>
             </div>
 
             {/* CTA form */}
-            {/* <form className="w-full lg:w-1/2">
+
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="email" className="w-full appearance-none bg-yellow-700 border border-yellow-500 focus:border-yellow-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-yellow-400" placeholder="Your best email…" aria-label="Your best email…" />
-                <a className="btn text-yellow-600 bg-yellow-100 hover:bg-white shadow" href="#0">Subscribe</a>
+                {/* <input type="email" className="w-full appearance-none bg-yellow-700 border border-yellow-500 focus:border-yellow-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-yellow-400" placeholder="Your best email…" aria-label="Your best email…"  /> */}
+                <a className="btn sm:mr-10 text-yellow-600 bg-yellow-100 hover:bg-white shadow" href="#0">Whatsapp</a>
+                <a className="btn text-yellow-600 bg-yellow-100 hover:bg-white shadow" href="#0">Email</a>
               </div>
-            </form> */}
+
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
 
